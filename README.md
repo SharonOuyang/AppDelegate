@@ -1,4 +1,4 @@
-#AppDelegate瘦身
+# AppDelegate瘦身
 
 本文主要通过runtime实现将**UIApplicationDelegate**方法在**AppDelegate**类中提取出来，这样避免AppDelegate类变得冗余，可以将UIApplicationDelegate方法中需要处理的逻辑代码剥离出来，单独处理，实现代码低耦合。
 
@@ -76,8 +76,6 @@ method_exchangeImplementations(systemMethod, newMethod);
 }
 ```
 - **获取UIApplicationDelegate方法，并发送自定义通知，这样可以在项目中任何地方可以监测应用程序状态，并实现自定义逻辑代码**
-
-完整代码请参考:
 
 
 
