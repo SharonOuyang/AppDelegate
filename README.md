@@ -77,8 +77,6 @@ method_exchangeImplementations(systemMethod, newMethod);
 ```
 - **获取UIApplicationDelegate方法，并发送自定义通知，这样可以在项目中任何地方可以监测应用程序状态，并实现自定义逻辑代码**
 
-完整代码请参考:
-
 
 
 
