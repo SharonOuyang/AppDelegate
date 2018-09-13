@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8073B00A214A5D3F001E2F7D /* UIApplication+SOCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8073B009214A5D3F001E2F7D /* UIApplication+SOCode.m */; };
 		8086F59D212EC22000144B96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8086F59C212EC22000144B96 /* AppDelegate.m */; };
 		8086F5A0212EC22000144B96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8086F59F212EC22000144B96 /* ViewController.m */; };
 		8086F5A3212EC22000144B96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8086F5A1212EC22000144B96 /* Main.storyboard */; };
 		8086F5A5212EC22200144B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8086F5A4212EC22200144B96 /* Assets.xcassets */; };
 		8086F5A8212EC22200144B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8086F5A6212EC22200144B96 /* LaunchScreen.storyboard */; };
 		8086F5AB212EC22200144B96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8086F5AA212EC22200144B96 /* main.m */; };
-		8086F5B9212FEAD300144B96 /* UIApplication+Neulion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8086F5B8212FEAD300144B96 /* UIApplication+Neulion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8073B008214A5D3F001E2F7D /* UIApplication+SOCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+SOCode.h"; sourceTree = "<group>"; };
+		8073B009214A5D3F001E2F7D /* UIApplication+SOCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SOCode.m"; sourceTree = "<group>"; };
 		8086F598212EC22000144B96 /* Delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8086F59B212EC22000144B96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8086F59C212EC22000144B96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		8086F5A7212EC22200144B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8086F5A9212EC22200144B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8086F5AA212EC22200144B96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8086F5B7212FEAD300144B96 /* UIApplication+Neulion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Neulion.h"; sourceTree = "<group>"; };
-		8086F5B8212FEAD300144B96 /* UIApplication+Neulion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Neulion.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +63,8 @@
 			children = (
 				8086F59B212EC22000144B96 /* AppDelegate.h */,
 				8086F59C212EC22000144B96 /* AppDelegate.m */,
-				8086F5B7212FEAD300144B96 /* UIApplication+Neulion.h */,
-				8086F5B8212FEAD300144B96 /* UIApplication+Neulion.m */,
+				8073B008214A5D3F001E2F7D /* UIApplication+SOCode.h */,
+				8073B009214A5D3F001E2F7D /* UIApplication+SOCode.m */,
 				8086F59E212EC22000144B96 /* ViewController.h */,
 				8086F59F212EC22000144B96 /* ViewController.m */,
 				8086F5A1212EC22000144B96 /* Main.storyboard */,
@@ -146,9 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8073B00A214A5D3F001E2F7D /* UIApplication+SOCode.m in Sources */,
 				8086F59D212EC22000144B96 /* AppDelegate.m in Sources */,
 				8086F5A0212EC22000144B96 /* ViewController.m in Sources */,
-				8086F5B9212FEAD300144B96 /* UIApplication+Neulion.m in Sources */,
 				8086F5AB212EC22200144B96 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

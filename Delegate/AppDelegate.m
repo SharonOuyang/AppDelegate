@@ -3,12 +3,11 @@
 //  Delegate
 //
 //  Created by Sharon Ouyang on 2018/8/23.
-//  Copyright © 2018 NeuLion. All rights reserved.
+//  Copyright © 2018 Sharon. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import <objc/runtime.h>
-#import "UIApplication+Neulion.h"
+#import "UIApplication+SOCode.h"
 
 @interface AppDelegate ()
 
@@ -30,7 +29,7 @@
 }
 //- (void)applicationDidEnterBackground:(UIApplication *)application
 //{
-//    
+//
 //    
 //}
 - (void)applicationWillEnterForeground:(UIApplication *)application {

@@ -1,15 +1,15 @@
 //
-//  UIApplication+Neulion.m
+//  UIApplication+SOCode.m
 //  Delegate
 //
-//  Created by Sharon Ouyang on 2018/8/24.
-//  Copyright © 2018 NeuLion. All rights reserved.
+//  Created by Sharon Ouyang on 2018/9/13.
+//  Copyright © 2018 Sharon. All rights reserved.
 //
 
-#import "UIApplication+Neulion.h"
+#import "UIApplication+SOCode.h"
 #import <objc/runtime.h>
 
-@implementation UIApplication (Neulion)
+@implementation UIApplication (SOCode)
 
 + (void)load
 {
@@ -61,5 +61,4 @@
     
     
 }
-
 @end
