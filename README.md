@@ -1,4 +1,4 @@
-#AppDelegate瘦身
+# AppDelegate瘦身
 
 本文主要通过runtime实现将**UIApplicationDelegate**方法在**AppDelegate**类中提取出来，这样避免AppDelegate类变得冗余，可以将UIApplicationDelegate方法中需要处理的逻辑代码剥离出来，单独处理，实现代码低耦合。
 
